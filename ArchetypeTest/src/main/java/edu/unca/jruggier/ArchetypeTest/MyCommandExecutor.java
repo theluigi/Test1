@@ -22,11 +22,11 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-public class ArchetypeTestCommandExecutor implements CommandExecutor {
+public class MyCommandExecutor implements CommandExecutor {
 
-    private ArchetypeTest plugin;
+    private MyPlugin plugin;
 
-    public ArchetypeTestCommandExecutor(ArchetypeTest plugin) {
+    public MyCommandExecutor(MyPlugin plugin) {
         this.plugin = plugin;
     }
 
